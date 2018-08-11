@@ -26,7 +26,6 @@ class Counters extends Component{
                 {this.state.tags.length === 0 && "Please buy some cars"}
                 {/*//gets header image */}
                 <img style={this.image} src={this.state.imageUrl} />
-                <img style={this.image} src={this.state.bmw} />
                 {this.renderTags()}
 
                 <hr/>
